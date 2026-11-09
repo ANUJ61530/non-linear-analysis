@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+XRP,crypto,full,returns,1,10,False,0.9710249763899773,0.11902681887158768,0.9933890567747516,True,4.713842822930413,0.9966924382229819,lyapunov,none,True,False,Random/Stochastic,none,none,none,none
+XRP,crypto,full,absolute returns,1,10,False,0.97446834195119,0.14018067788090569,0.9878919660106155,True,3.9039209518669,0.9981955447639066,time_reversal,none,True,False,Random/Stochastic,none,none,none,none
+XRP,crypto,full,squared returns,1,10,False,0.9790140845070423,0.20912549302400396,0.9889508451625743,True,2.59358917274924,0.9984027828105618,none,none,False,False,Random/Stochastic,none,none,none,none
+XRP,crypto,full,realised vol (20d),19,10,False,0.9618069731362783,0.0733208481138004,0.9929220483854072,True,5.743841487219733,0.9963434666851798,"lyapunov, time_reversal",none,True,False,Random/Stochastic,none,none,none,none

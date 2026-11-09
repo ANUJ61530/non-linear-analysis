@@ -1,0 +1,40 @@
+# Settings for nla_pipeline.py (same values as volatility_chaos.ipynb). All results record these.
+seed: 20261103
+data_dir: "../data"            # read only
+results_dir: "results"
+alpha: 0.05
+
+crypto: {start: null, end: "2026-09-02"}
+nifty:  {start: "2016-01-01", end: "2026-10-16"}
+
+rv_window: 20                  # realised volatility window (days or trading days)
+max_lag: 30                    # AMI / ACF lags
+m_max: 10                      # FNN maximum embedding dimension
+week: {crypto: 7, nifty: 5}    # period of the weekly component tested in the spectrum
+
+n_surr: 999                    # full-sample surrogate tests and spectra, per family
+n_surr_half: 499               # split-sample tests
+n_surr_period: 499             # period spectra
+
+min_obs_full: 1500             # below: "low power" flag
+min_obs_any: 750               # below: descriptive statistics and spectra only
+
+periods:
+  nperseg: 256
+  slope_range: [0.0078125, 0.04]     # periods 25 to 128 days
+  min_obs: 365                       # a period is analysed if it has at least this many observations
+  min_share: 0.5                     # ... and at least this share of the nominal period
+  crypto:
+    "P1 2017-2019": ["2017-09-01", "2019-12-31"]
+    "P2 2020-2021": ["2020-01-01", "2021-12-31"]
+    "P3 2022-2023": ["2022-01-01", "2023-12-31"]
+    "P4 2024-2026": ["2024-01-01", "2026-09-02"]
+  nifty:
+    "P1 2016-2019": ["2016-01-01", "2019-12-31"]
+    "P2 2020-2021": ["2020-01-01", "2021-12-31"]
+    "P3 2022-2023": ["2022-01-01", "2023-12-31"]
+    "P4 2024-2026": ["2024-01-01", "2026-10-16"]
+
+# Server usage: at most 50% of the machine (64 hardware threads -> 32 worker processes in total)
+max_workers_total: 32
+jobs_per_asset: 8              # worker processes per asset; run_all.sh runs max_workers_total / jobs_per_asset assets at once

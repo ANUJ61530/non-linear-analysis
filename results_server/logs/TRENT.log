@@ -1,0 +1,1 @@
+{"asset": "TRENT", "market": "nifty", "n": 2644, "start": "2016-02-01", "end": "2026-10-16", "power": "full", "seed": 20261103, "n_surr": 999, "n_surr_half": 499, "n_surr_period": 499, "python": "3.13.13", "numpy": "2.5.4", "pandas": "3.1.0", "host": "tyrone-workstation", "finished": "2026-11-05 00:07:34", "seconds": 1412}

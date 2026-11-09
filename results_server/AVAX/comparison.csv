@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+AVAX,crypto,full,returns,1,10,False,0.9672967598079588,0.11107081027264569,0.9924210056594058,True,4.884141799604253,0.9982691180736425,D2_m5,none,True,False,Random/Stochastic,none,none,none,none
+AVAX,crypto,full,absolute returns,1,10,False,0.9620016486057219,0.1289500004500241,0.9866592606143835,True,4.547710191086806,0.9981362304251441,none,none,False,False,Random/Stochastic,none,none,none,none
+AVAX,crypto,full,squared returns,1,10,False,0.9634595639306638,0.180856757796959,0.987789490027167,True,2.4856466675652795,0.9912949597047733,none,none,False,False,Random/Stochastic,none,none,none,none
+AVAX,crypto,full,realised vol (20d),22,10,False,0.9167262257254294,0.0593879427292473,0.9538817695222409,True,4.547404132940423,0.9920969458572491,none,none,False,False,Random/Stochastic,none,none,none,none

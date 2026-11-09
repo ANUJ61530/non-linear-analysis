@@ -1,0 +1,12 @@
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+matplotlib==3.11.2
+arch==8.0.0
+ipykernel
+nbformat
+nbclient
+joblib==1.6.0
+statsmodels==0.15.0
+pyarrow==26.0.0
+pyyaml

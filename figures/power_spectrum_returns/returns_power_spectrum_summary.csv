@@ -1,0 +1,12 @@
+statistic,value
+"spectral exponent beta (Welch, periods 25-250 d)","-0.130 (s.e. 0.084, R^2 0.130, 18 points)"
+"beta of GARCH surrogates, median [95%]","0.00 [-0.61, 0.70]"
+p beta vs GARCH (two-sided),0.632
+"beta GPH = 2d (s.e.), lowest m frequencies","-0.060 (0.170), m = 57"
+share of power at periods > 20 d (white noise about 0.10),0.092
+p low-band share vs GARCH (two-sided),0.992
+share of power at periods < 5 d,0.63
+top peaks (period),2.5 d; 2.8 d; 3.4 d
+p weekly component (7 d) vs GARCH (one-sided),0.848
+global test p vs GARCH / share outside band,0.636 / 0.004
+global test p vs IAAFT / share outside band,0.459 / 0.055

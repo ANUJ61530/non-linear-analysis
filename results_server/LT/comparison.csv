@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+LT,nifty,full,returns,1,10,False,0.96505603084709,0.11527479684979534,0.9898758518595363,True,5.87178480919846,0.9963799099250149,none,none,False,False,Random/Stochastic,none,none,"pred_skill, nl_gain",pred_skill
+LT,nifty,full,absolute returns,1,10,False,0.9623343455265752,0.13161925044247574,0.9857802300059437,True,5.609504296493848,0.9975525921655475,none,none,False,False,Random/Stochastic,none,none,time_reversal,time_reversal
+LT,nifty,full,squared returns,1,10,False,0.966580821697316,0.20346793415471587,0.9891273614714292,True,3.314371547487282,0.9980874451618682,none,none,False,False,Random/Stochastic,none,none,none,time_reversal
+LT,nifty,full,realised vol (20d),19,10,False,0.9674989281995795,0.06324050069819465,0.9374135760912645,True,5.828534210034217,0.9963982253959375,none,none,False,False,Random/Stochastic,none,none,time_reversal,time_reversal

@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+KOTAKBANK,nifty,full,returns,1,10,False,0.9564492811822344,0.11238321088666142,0.991586603955652,True,5.808752487318543,0.9979207800679939,"lyapunov, nl_gain",none,True,False,Random/Stochastic,none,none,none,none
+KOTAKBANK,nifty,full,absolute returns,1,10,False,0.9497046176104168,0.13365095300927332,0.9917926490684189,True,5.619595139766425,0.9972360124206299,none,none,False,False,Random/Stochastic,none,none,none,none
+KOTAKBANK,nifty,full,squared returns,1,10,False,0.9502595677894483,0.186689022109765,0.9895465048922116,True,3.1584442765835856,0.997393297268828,none,none,False,False,Random/Stochastic,none,none,none,none
+KOTAKBANK,nifty,full,realised vol (20d),21,10,False,0.905140758873929,0.06107058581138966,0.979431899265198,True,5.512780597799536,0.9964034687872855,none,none,False,False,Random/Stochastic,none,none,none,none

@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+MAXHEALTH,nifty,full,returns,1,10,False,0.9624181036215282,0.11236022754573945,0.9907145330054785,True,6.470193129715336,0.9986746594067452,none,none,False,False,Random/Stochastic,none,none,none,none
+MAXHEALTH,nifty,full,absolute returns,1,10,False,0.9621174058964207,0.12471974497577583,0.9933791331187851,True,5.398739807236183,0.9983836737328483,none,none,False,False,Random/Stochastic,none,none,none,none
+MAXHEALTH,nifty,full,squared returns,1,10,False,0.9662247792239143,0.1732090089713142,0.9923254357416141,True,3.0535832666199223,0.998143072441781,none,none,False,False,Random/Stochastic,none,none,none,none
+MAXHEALTH,nifty,full,realised vol (20d),16,10,False,0.9382352941176471,0.06311987843259646,0.8940337306149572,True,5.1276971772601945,0.99497347835945,none,none,False,False,Random/Stochastic,none,none,none,none

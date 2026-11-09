@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+BNB,crypto,full,returns,1,10,False,0.9631630746982144,0.11276974796206475,0.9917084484368061,True,4.4877803292681975,0.9958860551655233,"lyapunov, D2_m5, K_01, nl_gain",none,True,False,Random/Stochastic,none,none,"D2_m5, nl_gain, time_reversal",none
+BNB,crypto,full,absolute returns,1,10,False,0.9624155405405406,0.13897147566611218,0.9915836907818417,True,3.6252597494840906,0.9958259301734119,time_reversal,none,True,False,Random/Stochastic,none,none,none,none
+BNB,crypto,full,squared returns,1,10,True,0.9531847261899972,0.1864158502656423,0.9879627689829209,True,2.302533395510135,0.9983450914823695,lyapunov,none,True,False,Random/Stochastic,none,none,time_reversal,none
+BNB,crypto,full,realised vol (20d),25,10,False,0.9360189573459715,0.07837894280676043,0.9986781864316632,True,4.802909606099349,0.9902355706381374,none,none,False,False,Random/Stochastic,none,none,time_reversal,none

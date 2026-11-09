@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+APOLLOHOSP,nifty,full,returns,1,10,False,0.9679220648789796,0.11804499799494446,0.9871087114353191,True,5.338457072377868,0.9971207477074578,none,none,False,False,Random/Stochastic,none,none,none,none
+APOLLOHOSP,nifty,full,absolute returns,1,10,False,0.9670645446507515,0.13946551196460097,0.9895620386674242,True,4.592758267049827,0.9982343784379618,none,none,False,False,Random/Stochastic,none,none,none,none
+APOLLOHOSP,nifty,full,squared returns,1,10,False,0.9754444533826724,0.1961971779444175,0.9890965588996109,True,2.5826694469052605,0.9978129886473499,none,none,False,False,Random/Stochastic,none,none,none,none
+APOLLOHOSP,nifty,full,realised vol (20d),20,10,False,0.8945273428728898,0.07172637569135902,0.9768645093329258,True,6.151326252524501,0.9956626587625552,none,none,False,False,Random/Stochastic,none,none,none,none

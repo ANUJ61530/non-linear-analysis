@@ -1,0 +1,52 @@
+2026-11-04 18:24:46 start: 61 assets, 4 at a time x 8 workers (max 32)
+sh: 1: M.log: not found
+sh: 1: M: not found
+Traceback (most recent call last):
+  File "/home/user/anuj/envs/nla/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3816, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 172, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 201, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7726, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7734, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'M'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "pandas/_libs/index.pyx", line 936, in pandas._libs.index.BaseMultiIndexCodesEngine.get_loc
+  File "/home/user/anuj/envs/nla/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3823, in get_loc
+    raise KeyError(key) from err
+KeyError: 'M'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/anuj/envs/nla/lib/python3.13/site-packages/pandas/core/indexes/multi.py", line 3707, in get_loc
+    return self._engine.get_loc(key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "pandas/_libs/index.pyx", line 939, in pandas._libs.index.BaseMultiIndexCodesEngine.get_loc
+KeyError: ('adjclose', 'M')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/anuj/nonlinear_analysis/nla_pipeline.py", line 401, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/anuj/nonlinear_analysis/nla_pipeline.py", line 396, in main
+    meta = run_asset(a.asset, cfg, jobs)
+  File "/home/user/anuj/nonlinear_analysis/nla_pipeline.py", line 331, in run_asset
+    price = load_prices(asset, cfg)
+  File "/home/user/anuj/nonlinear_analysis/nla_pipeline.py", line 56, in load_prices
+    s = panel[("adjclose", asset)].loc[cfg["nifty"]["start"]: cfg["nifty"]["end"]]
+        ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anuj/envs/nla/lib/python3.13/site-packages/pandas/core/frame.py", line 4329, in __getitem__
+    return self._getitem_multilevel(key)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/user/anuj/envs/nla/lib/python3.13/site-packages/pandas/core/frame.py", line 4410, in _getitem_multilevel
+    loc = self.columns.get_loc(key)
+  File "/home/user/anuj/envs/nla/lib/python3.13/site-packages/pandas/core/indexes/multi.py", line 3709, in get_loc
+    raise KeyError(key) from err
+KeyError: ('adjclose', 'M')
+2026-11-05 00:11:22 all done

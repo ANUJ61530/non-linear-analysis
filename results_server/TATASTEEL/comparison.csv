@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+TATASTEEL,nifty,full,returns,1,10,False,0.9583324962330487,0.11357373059639825,0.9884670393705357,True,5.22797507847129,0.998371996319074,none,none,False,False,Random/Stochastic,none,none,none,none
+TATASTEEL,nifty,full,absolute returns,1,10,False,0.9601817048903539,0.13117685819378805,0.9899726164704588,True,4.829524456060542,0.9980506732130585,none,none,False,False,Random/Stochastic,none,none,none,none
+TATASTEEL,nifty,full,squared returns,1,10,False,0.961767426893528,0.20359265789350942,0.9880036208342349,True,2.82211341470612,0.9981738994416803,none,none,False,False,Random/Stochastic,none,none,none,none
+TATASTEEL,nifty,full,realised vol (20d),21,10,False,0.9192026469506964,0.06018274032077811,0.9907664637996069,True,6.322358386561106,0.9938172314341724,none,none,False,False,Random/Stochastic,none,none,none,none

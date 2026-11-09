@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+HCLTECH,nifty,full,returns,1,10,False,0.9640634410760891,0.11311023778414561,0.9871705490411554,True,5.775138577570214,0.9984682907601796,none,none,False,False,Random/Stochastic,none,none,none,none
+HCLTECH,nifty,full,absolute returns,1,10,False,0.9590142515427446,0.13157569745109893,0.98549131956864,True,5.925258032280566,0.9970693583916921,none,none,False,False,Random/Stochastic,none,none,none,none
+HCLTECH,nifty,full,squared returns,1,10,False,0.9589804458034924,0.187466353009044,0.989920637816231,True,3.264572596972007,0.9972729540204819,none,none,False,False,Random/Stochastic,none,none,none,none
+HCLTECH,nifty,full,realised vol (20d),20,10,False,0.9309317277273191,0.06395555541646034,0.9645977637481753,True,4.699667406524388,0.9980843491814659,none,none,False,False,Random/Stochastic,none,none,none,none

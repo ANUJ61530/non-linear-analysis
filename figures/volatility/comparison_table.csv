@@ -1,0 +1,5 @@
+series,tau,m (FNN),DET,Lyapunov,D2,K,S-map gain,z(S-map gain) vs IAAFT,z(pred skill) vs IAAFT,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification
+returns,1,10 (not reached),0.963,0.1196,4.14,0.998,0.0052,1.6,1.67,"lyapunov, D2_m5, time_reversal",none,yes,no,Random/Stochastic
+absolute returns,1,10 (not reached),0.965,0.1377,3.76,0.997,0.0056,0.29,-0.55,"lyapunov, time_reversal",none,yes,no,Random/Stochastic
+squared returns,1,10 (not reached),0.966,0.2193,2.55,0.999,0.1457,1.86,0.37,nl_gain,none,yes,no,Random/Stochastic
+realised vol (20d),22,10 (not reached),0.908,0.0616,5.22,0.994,0.0208,-0.4,-2.27,time_reversal,none,yes,no,Random/Stochastic

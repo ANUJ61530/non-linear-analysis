@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+JSWSTEEL,nifty,full,returns,1,10,False,0.9554016064257028,0.11279064748651889,0.9868997708859749,True,5.274134099233243,0.9979367354402404,none,none,False,False,Random/Stochastic,none,none,none,none
+JSWSTEEL,nifty,full,absolute returns,1,10,False,0.9577090916403563,0.13056733031681242,0.9904926498203787,True,4.808933879475673,0.9970954811663103,none,none,False,False,Random/Stochastic,none,none,none,none
+JSWSTEEL,nifty,full,squared returns,1,10,False,0.9525313273125893,0.1976744992738654,0.9898858635337866,True,2.9009135089161426,0.9976711931878013,none,none,False,False,Random/Stochastic,none,none,none,none
+JSWSTEEL,nifty,full,realised vol (20d),26,10,False,0.9196782228755768,0.07370536857825075,0.9878724679608704,True,6.155240705436673,0.9933528085626744,none,none,False,False,Random/Stochastic,none,none,none,none

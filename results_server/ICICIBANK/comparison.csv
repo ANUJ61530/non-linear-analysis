@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+ICICIBANK,nifty,full,returns,1,10,False,0.9654126579227509,0.10504408998692204,0.9903330462746953,True,5.034828018905179,0.997530286534869,none,none,False,False,Random/Stochastic,none,none,none,none
+ICICIBANK,nifty,full,absolute returns,1,10,False,0.9649062826803958,0.13100862908356664,0.9885292311579131,True,4.548103060610484,0.9979680686482858,none,none,False,False,Random/Stochastic,none,none,none,none
+ICICIBANK,nifty,full,squared returns,1,8,True,0.945639271703048,0.24188933189152556,0.9861686326795613,True,2.942413705513246,0.9981515482236734,none,none,False,False,Random/Stochastic,none,none,none,none
+ICICIBANK,nifty,full,realised vol (20d),29,10,False,0.9052169474221542,0.05924010440444621,0.9943211914906116,True,5.361745544459495,0.9899086638110057,none,none,False,False,Random/Stochastic,none,none,none,none

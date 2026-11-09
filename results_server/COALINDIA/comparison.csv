@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+COALINDIA,nifty,full,returns,1,10,False,0.9632262858749573,0.11105140774976821,0.9896313954731232,True,4.99442586918102,0.997830133574741,none,none,False,False,Random/Stochastic,none,none,none,none
+COALINDIA,nifty,full,absolute returns,1,10,False,0.9614835087436863,0.14838632693488482,0.9927506782670635,True,4.433444989221617,0.9971254041942235,none,none,False,False,Random/Stochastic,none,none,none,none
+COALINDIA,nifty,full,squared returns,1,10,False,0.9625007548157243,0.2025963312455834,0.9924797405948391,True,2.0378714727108984,0.997610537343611,none,none,False,False,Random/Stochastic,none,none,none,none
+COALINDIA,nifty,full,realised vol (20d),22,10,False,0.9445510595729043,0.06996078464850936,0.9460807088910737,True,6.696312357026366,0.9930974073207975,none,none,False,False,Random/Stochastic,none,none,none,none

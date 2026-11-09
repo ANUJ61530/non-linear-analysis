@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+POWERGRID,nifty,full,returns,1,10,False,0.9611597813856293,0.11655074855318884,0.9886451028249519,True,5.661052484810324,0.9981497910164769,time_reversal,none,True,False,Random/Stochastic,none,none,time_reversal,none
+POWERGRID,nifty,full,absolute returns,1,10,False,0.9586263714182374,0.13288705365874381,0.9895620596312965,True,5.3682111930159495,0.9977286406224057,none,none,False,False,Random/Stochastic,none,none,none,none
+POWERGRID,nifty,full,squared returns,1,10,False,0.955176437452219,0.17838468685838552,0.9852119425055788,True,3.3480540023856062,0.9985585762452998,time_reversal,none,True,False,Random/Stochastic,none,none,none,time_reversal
+POWERGRID,nifty,full,realised vol (20d),18,10,False,0.9286384976525821,0.06429876623655377,0.9702213542714264,True,5.933586944523448,0.9977927983072186,time_reversal,none,True,False,Random/Stochastic,none,none,"K_01, time_reversal",none

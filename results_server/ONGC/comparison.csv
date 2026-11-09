@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+ONGC,nifty,full,returns,1,10,False,0.9654230205131296,0.11158173290351742,0.9881431897825782,True,5.355745517432954,0.997940661232902,none,none,False,False,Random/Stochastic,none,none,none,none
+ONGC,nifty,full,absolute returns,1,10,False,0.9664703399199952,0.13070861525672064,0.987412937514069,True,5.354512557232244,0.9972502311182074,none,none,False,False,Random/Stochastic,none,none,none,none
+ONGC,nifty,full,squared returns,1,10,False,0.967365498370287,0.18507954721404263,0.9872602314817376,True,2.8992540008163172,0.9990467867341051,none,none,False,False,Random/Stochastic,none,none,none,none
+ONGC,nifty,full,realised vol (20d),26,10,False,0.961956854501296,0.09466698788680472,0.968271276732305,True,3.8125023852441466,0.9981808070402336,none,none,False,False,Random/Stochastic,none,none,none,none

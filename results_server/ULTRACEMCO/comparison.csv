@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+ULTRACEMCO,nifty,full,returns,1,10,False,0.9594627153355018,0.11414005499870336,0.9897361994051868,True,6.281972995602345,0.998052011428864,none,none,False,False,Random/Stochastic,none,none,none,none
+ULTRACEMCO,nifty,full,absolute returns,1,10,False,0.9588507132810931,0.13360448168034006,0.988797048185245,True,5.355380443628918,0.998942907619252,none,none,False,False,Random/Stochastic,none,none,none,none
+ULTRACEMCO,nifty,full,squared returns,1,10,False,0.968054717360692,0.1961503870107062,0.9921291126293303,True,2.9645232835837034,0.9966308625895368,time_reversal,time_reversal,True,True,Inconclusive,none,none,none,none
+ULTRACEMCO,nifty,full,realised vol (20d),20,10,False,0.9345112858747829,0.056483634316312495,0.9823201802079755,True,6.224050124907567,0.9984454167096636,none,none,False,False,Random/Stochastic,none,none,none,none

@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+AXISBANK,nifty,full,returns,1,10,False,0.9671436035529118,0.10891380511501536,0.9873417252104634,True,5.677128391152806,0.9987297568545412,none,none,False,False,Random/Stochastic,none,none,none,none
+AXISBANK,nifty,full,absolute returns,1,10,False,0.96900112504018,0.1337238757378168,0.9904830974443807,False,,0.9981859583222682,none,none,False,False,Random/Stochastic,none,none,none,none
+AXISBANK,nifty,full,squared returns,1,8,True,0.9330156048906049,0.25260160964334927,0.9865164969733679,True,3.366542513466507,0.9994458470021876,none,none,False,False,Random/Stochastic,none,none,none,none
+AXISBANK,nifty,full,realised vol (20d),24,10,False,0.9263964055958338,0.0806336642080001,0.9829883850753073,True,4.6564971691694925,0.9968375191837076,none,none,False,False,Random/Stochastic,none,none,none,none

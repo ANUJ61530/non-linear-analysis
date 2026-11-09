@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+HDFCLIFE,nifty,full,returns,1,10,False,0.9647914197915202,0.10851414825401542,0.9875232973804029,True,5.308109980681664,0.9980772180567665,"lyapunov, nl_gain, time_reversal",none,True,False,Random/Stochastic,"nl_gain, time_reversal",none,none,none
+HDFCLIFE,nifty,full,absolute returns,1,10,False,0.9670411382865411,0.13256923140051616,0.9905225228551451,True,4.944179956994938,0.9986515219839049,time_reversal,none,True,False,Random/Stochastic,time_reversal,none,none,none
+HDFCLIFE,nifty,full,squared returns,2,10,False,0.17592035007427034,-0.14639695987296208,0.10748731064345818,True,2.8853993582202477,0.9988428596539031,time_reversal,time_reversal,True,True,Inconclusive,time_reversal,time_reversal,none,none
+HDFCLIFE,nifty,full,realised vol (20d),19,10,False,0.9290525370453525,0.06149883326141218,0.9857906475561754,True,6.608407265915982,0.9987026677396034,none,none,False,False,Random/Stochastic,none,none,none,none

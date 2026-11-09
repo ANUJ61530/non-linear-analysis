@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+SHRIRAMFIN,nifty,full,returns,1,10,False,0.961032958199357,0.1120273854932593,0.9847069787059424,False,,0.997558823123766,none,none,False,False,Random/Stochastic,none,none,none,none
+SHRIRAMFIN,nifty,full,absolute returns,1,10,False,0.9595314164004259,0.1287305631781179,0.9877452924586512,True,5.648865898927757,0.9988038856552726,none,none,False,False,Random/Stochastic,none,none,none,none
+SHRIRAMFIN,nifty,full,squared returns,1,10,False,0.9581623622173948,0.18422445775786012,0.9850771744257928,True,3.761021125070652,0.998542718555925,none,none,False,False,Random/Stochastic,none,none,none,none
+SHRIRAMFIN,nifty,full,realised vol (20d),19,10,False,0.9038430123335783,0.06352644512518951,0.9743984559043106,True,5.187588921384072,0.9971507626440638,none,none,False,False,Random/Stochastic,none,none,none,none

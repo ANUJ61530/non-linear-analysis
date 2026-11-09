@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+HDFCBANK,nifty,full,returns,1,10,False,0.9650669934312288,0.11262018416607719,0.9902985986500603,True,5.282107478930317,0.9966769273356153,none,none,False,False,Random/Stochastic,none,none,none,none
+HDFCBANK,nifty,full,absolute returns,1,10,False,0.9654541800643087,0.1361549816302738,0.9881763499884857,True,5.002483689050138,0.9979982186595646,none,none,False,False,Random/Stochastic,none,none,none,none
+HDFCBANK,nifty,full,squared returns,1,10,False,0.9676861167002012,0.18543395060061593,0.9884260288458999,True,2.546805068567398,0.9983843022016861,none,none,False,False,Random/Stochastic,none,none,none,none
+HDFCBANK,nifty,full,realised vol (20d),24,10,False,0.9354733383670387,0.07668358168454426,0.9882577432514169,True,4.970830433717387,0.9970267411495222,none,none,False,False,Random/Stochastic,none,none,none,none

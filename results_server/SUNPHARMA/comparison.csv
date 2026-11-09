@@ -1,0 +1,5 @@
+asset,market,power,series,tau,m,fnn_reached,DET,lyapunov,lyapunov R^2,D2 saturates,D2,K,differs from IAAFT,differs from GARCH,nonlinear,beyond GARCH,classification,half1 vs IAAFT,half1 vs GARCH,half2 vs IAAFT,half2 vs GARCH
+SUNPHARMA,nifty,full,returns,1,10,False,0.9646744587701329,0.1107021835242306,0.990468278959581,True,5.5934178793210805,0.9972025388781118,"lyapunov, D2_m5, time_reversal",none,True,False,Random/Stochastic,none,none,none,none
+SUNPHARMA,nifty,full,absolute returns,1,10,False,0.9623851551034358,0.13016497247938827,0.989210563230826,True,4.63662672200165,0.9964983227521271,lyapunov,none,True,False,Random/Stochastic,none,none,none,none
+SUNPHARMA,nifty,full,squared returns,1,10,False,0.9612955139810904,0.18192135108574578,0.9876144519294946,True,3.0273101832325637,0.9980454439676643,none,none,False,False,Random/Stochastic,none,none,none,none
+SUNPHARMA,nifty,full,realised vol (20d),22,10,False,0.9048095578474421,0.07318854365823091,0.9486982686200278,True,5.2576243585947,0.9925372024544511,none,none,False,False,Random/Stochastic,none,none,none,none

@@ -1,0 +1,17 @@
+{
+  "asset": "JIOFIN",
+  "market": "nifty",
+  "n": 758,
+  "start": "2023-09-18",
+  "end": "2026-10-16",
+  "power": "low power",
+  "seed": 20261103,
+  "n_surr": 999,
+  "n_surr_half": 499,
+  "n_surr_period": 499,
+  "python": "3.13.13",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "host": "tyrone-workstation",
+  "finished": "2026-11-04 21:49:10"
+}
